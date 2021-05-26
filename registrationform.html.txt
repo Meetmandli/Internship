@@ -1,0 +1,59 @@
+<html>
+<head>
+ <h1> <p style = "color :red">REGISTRATION FORM </p>  </h1>
+</head>
+<body bgcolor = "lightblue">
+<br>
+<br>
+<form>
+
+<label>  FIRSTNAME:  </label>
+<input type = "text"  name =" firstname" size ="16"  /><br><br>
+<label>  MIDDLENAME:  </label>
+<input type ="text" name = "middlename"  size="16"/><br><br>
+<label>  LASTNAME:  </label>
+<input type = "text" name =" lastname" size ="16"  /><br><br>
+<label>  COURSE </label>
+<select>
+<option value ="course">  course  </option>
+<option value ="BBA">   BBA  </option>
+<option value ="B.tech">   B.tech  </option>
+<option value ="MBA">   MBA  </option>
+<option value ="M.tech">   M.tech  </option>
+<option value ="MCA">   MCA  </option>
+</select>
+
+<br>
+<br>
+
+<label>  GENDER: </label><br>
+<input type = "radio" name = "Male" />Male<br>
+<input type = "radio" name = "Female" />Female<br>
+<input type = "radio" name = "Other" >Other<br><br>
+
+
+<label>  PHONE :  </label>
+<input type = "text" name="country code" value ="+91" size = "2"/>
+<input type = "text" name="phone" size = "10"/><br><br>
+
+ ADDRESS:
+<br>
+<textarea cols ="50" rows = "3" value = "address">
+</textarea>
+<br><br>
+
+
+<label>  EMAIL: </label>
+<input type ="email"  id ="email"  name ="email"/><br><br>
+
+
+<label> PASSWORD: </label>
+<input type ="password" id ="pass"  name="pass">
+<br><br>
+<label>  RE-TYPE PASSWORD: </label>
+<input type =password" id="repass'  name="repass><br><br>
+<input type ="button" value="submit">
+</form>
+</body>
+</html>
+ 
