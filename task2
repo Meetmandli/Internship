@@ -1,0 +1,47 @@
+# Data Types in Python
+
+
+# NUMBER DATATYPE 
+n1=10
+print(n1,'is of type',type(n1))
+
+n2 = 11.1
+print(n2,'is a type of ',type(n2))
+
+n3 = 5 + 4j
+print(n3,'is complex?  ',isinstance(5 + 4j,complex))
+
+
+# string datatype
+string = 'hello world'
+print('string is',string)
+print(string[0])
+print(string[1:5])
+print(string[:5])
+print(string[1:])
+
+# LIST DATATYPE 
+
+my_list = [10,20,'hello','5.5']
+print(my_list)
+print(my_list[1])
+print(my_list[1:3])
+
+
+# Tuple Datatype
+
+my_tup = (10,20,'hello',40,'world')
+print('Tuple is ',my_tup)
+print('tuple[1:3] is ',my_tup[1:3])
+print('tuple[2:] is',my_tup[2:])
+
+# IMPORTANT NOTE :- WE CAN NOT MODIFIY OR UPDATE TUPLES 
+
+
+# DICTIONARY DATATYPE
+
+my_dict = {1: 'hello' , 'world': 2 , 3 : 40}
+print('dictionary is ',my_dict)
+print('my_dict[1] = ',my_dict[1])
+print("my_dict['world'] = ",my_dict['world'])
+
