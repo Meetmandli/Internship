@@ -1,0 +1,151 @@
+# 1. CALCULATE AVERAGE OF 5 NUMBERS 
+n1 = int(input('enter first number'))
+n2 = int(input('enter second number'))
+n3 = int(input('enter third number'))
+n4 = int(input('enter fourth number'))
+n5 = int(input('enter fifth number'))
+
+average = float(n1+n2+n3+n4+n5)/5
+
+print("Average of 5 numbers is :",average)
+
+
+# 2. CHECK WHETHER NUMBER IS EVEN OR ODD
+num = int(input("Enter any positive number:  "))
+if num % 2==0:
+    print("number is EVENN")
+else:
+    print("number is ODD")
+
+#3. TAKE A YEAR AND CHECK WHETHER IT IS LEAP OR NOT
+year = int(input("Enter any year: "))
+if year % 4 == 0:
+    print(year," is a Leap year")
+else :
+    print(year," is not a Leap year")
+    
+
+# 4.TAKE A NUMBER AND CHECK WHETHER IT IS ZERO ,POSITIVE OR NEGATIVE
+num = int(input("Enter any number: "))
+if num == 0:
+    print("number is zero")
+if num > 0:
+    print("number is positive")
+if num < 0:
+    print("number is negative")
+
+# 5 TAKE 2 NUMBERS AND CHECK GREATEST AND EQUAL CONDITION
+num1 = int(input("enter first number: "))
+num2 = int(input("enter second number: "))
+if num1==num2:
+    print("Enter different number for num1 and num2")
+if num1 > num2:
+    print("num1 is greater than num2")
+if num2 > num1:
+    print("num2 is greater than num1")
+
+#6.TAKE A NUMBER AND THE FACTORIAL OF NUMBER
+n = int(input("Enter a valid positive number= "))
+factorial =1
+if n<0:
+    print("enter a valid number")
+if n==0:
+    print("Factorial = 1")
+for i in range(1,num+1):
+    factorial = factorial*i
+print("factorial of entered number is: ",factorial)
+
+# 7.WRITE A PROGRAP TO SWAP TWO NUMBERS USING THIR VARIABLE
+n1= int(input("Enter a number= "))
+n2 = int(input("Enter a number= "))
+if n1==n2:
+    print("enter different number please")
+temp = n1     #temp is a temporary variable
+n1=n2
+n2=temp
+print("after swapping n1= ",n1)
+print("after swapping n2= ",n2)
+
+# 8 TAKE 2 NUMBERS AND CHECK SMALLEST AND EQUAL CONDITION
+num1 = int(input("enter first number: "))
+num2 = int(input("enter second number: "))
+if num1==num2:
+    print("Enter different number for num1 and num2")
+if num1 < num2:
+    print("num1 is smaller than num2")
+if num2 < num1:
+    print("num2 is smaller than num1")
+
+#9 CHECK WHETHER A NUMBER IS LESS TAHN 100 OR NOT AND IF IT IS LESS THAN 100 CHECK WHETHER IT IS EVEN OR ODD
+n = int(input("Enter a number: "))
+if n < 100:
+    if n % 2 == 0:
+        print("number is less than 100 and even")
+    else:
+        print("number is less than 100 and odd")
+else:
+    print("number is greater than 100")
+
+#10. TAKE A NUMBER AND SQUARE IT IF IT IS LESS THAN 10
+n = int(input("enter any  number: "))
+if n < 10:
+    print("square of the number is ",n**2)
+else :
+    print("enter a number less than 10")
+
+#11. TAKE A NUMBER WHETHER IT IS ZER0,POSITIVE OR NEGATIVE USING NESTED IF..ELSE STATEMENT
+n = int(input("enter any number"))
+if n == 0:
+    print("entered number is zero")
+elif n>0 :
+    print("enterd number is positive")
+else:
+    print("entered number is negative")
+
+#12 TAKE 3 NUMBERS AND FIND GREATEST NUMBER USING NESTED IF ELSE STATEMENT
+n1 = int(input("enter first number: "))
+n2 = int(input("enter second number: "))
+n3 = int(input("enter third number: "))
+if  n1==n2==n3:
+    print("enter different values for n1 ,n2 and n3")
+if n1>n2 and n1>n3:
+    print("n1 is greatest")
+elif n2>n1 and n2>n3 :
+    print("n2 is greatest")
+else:
+    print("n3 is largest")
+
+
+#13 TAKE 3 NUMBERS AND FIND SMALLEST USING LOGICAL OPERATOR
+n1 = int(input("enter first number: "))
+n2 = int(input("enter second number: "))
+n3 = int(input("enter third number: "))
+if  n1==n2==n3:
+    print("enter different values for n1 ,n2 and n3")
+if n1<n2 and n1<n3:
+    print("n1 is smallest")
+elif n2<n1 and n2<n3 :
+    print("n2 is smallest")
+else:
+    print("n3 is smallest")
+
+
+#14 WRITE A PROGRAM TO SWAP 2 NUMBERS WITHOUT USING THIRD VARIABLE
+n1 = int(input("enter first number as n1= "))
+n2 = int(input("enter second number as n2= "))
+if n1>n2:
+    diff = n1-n2
+if n2>n1:
+    diff = n2-n1
+n1 = n2
+n2 = n1-diff
+print("after swapping n1 is ",n1)
+print("after swapping n2 is ",n2)
+
+#15 TAKE START NUMBER AND END NUMBER FROM USER AND PRINT A SERIES AS 30,27....,0
+start_index = int(input("Enter start index"))
+end_index = int(input("Enter end index"))
+for i in range(start_index,end_index-1,-3):
+    print(i)
+
+
