@@ -1,0 +1,61 @@
+Example of class
+
+class Myclass:
+    def func1(self):
+        print('Hello')
+    def func2(self,name):
+        print("Name is "+name)
+myc = Myclass()
+myc.func1()
+myc.func2('Meet')
+
+Hello
+Name is Meet
+
+
+Python constructor
+
+1.Default constructor example
+
+class Myclass:
+    def __init__(self):
+        print("...HI...")
+M = Myclass()
+
+
+...HI...
+
+
+2. parameterized constructor example
+
+class hello:
+    def __init__(self,name):
+        print("NAME IS ",name)
+m1 = hello('MEET')
+
+NAME IS  MEET
+
+
+Assigning string value to class variable to constructor and method
+
+class Myclass:
+    name= ""
+    def func1(self):
+        print("Hello",self.name)
+   
+    def __init__(self,name):
+        self.name = name
+m1 = Myclass('Meet')
+m1.func1()       
+
+
+Hello Meet
+
+
+After this we had discuss about various types of INHERITANCE
+1. SINGLE LEVEL INHERITANCE
+2. MULTI-LEVEL INHERITANCE
+3. MULTIPLE INHERITANCE 
+4. HIERARCHICAL INHERITANCE
+5. HYBRID INHERITANCE
+
