@@ -1,0 +1,198 @@
+Python function without arguments and return value
+
+def func():
+    print("My name is MEET")
+func()
+My name is MEET
+Example with arguments
+def myfunc(name):
+    print("My name is ",name)
+myfunc("Meet")
+My name is  Meet
+Example with arguments and return statement
+def name(nm):
+    return nm
+nm = name("Meet")
+print(nm)
+ output :=Meet
+
+
+#Example with arguments and multiple return statement
+
+def data(name,age):
+    return name,age
+name,age = data("Meet",20)
+print("My name is ",name,"and age is",age )
+
+output is :=My name is  Meet and age is 20
+
+Python function arguments
+
+1. Default arguments
+
+def sum(a,b):
+    print(a+b)
+sum(10,20)
+
+output :30
+
+2. Keyword arguments
+
+def sum(a,b):
+    print("sum is ",a+b)
+sum(b=10,a=20)
+
+output :sum is  30
+
+3. variable length arguments
+
+# 1. NON KEYWORD ARGUMENTS
+
+# An asterisk(*) is placed before a parameter in a function definition which can hold non keyword variable length arguments 
+
+def sum(*num):
+    s=0
+    for n in num:
+        s = s + n
+    print("sum is ",s)
+sum(10,20)
+sum(10,20,5)
+output :sum is  30
+            sum is  35
+
+# 2.KEYWORD ARGUMENTS
+
+# A double asterisk(**)is placed before a parameter in a function definition which canhold keyword variable-length arguments 
+
+def func(**arg):
+    for i,j in arg.items():
+        print(i,j)
+func(Name = "Meet",Lastname = "Mandli")
+
+output :Name Meet
+Lastname Mandli
+
+Note:- Variable inside the function is Local and outside the function is Global variable
+
+*operators in python
+
+1. Arithmetic operator (example)
+
+def arithmeticFunc(x,y):
+    print("sum is ",x+y)
+    print("diff is ",x-y)
+    print("div is ",x/y)
+    print("mul is ",x*y)
+    print("modulo is ",x%y)
+    print("power is ",x**y)
+arithmeticFunc(2,4)
+output:
+sum is  6
+diff is  -2
+div is  0.5
+mul is  8
+modulo is  2
+power is  16
+
+Comparison operators (example)
+
+def comparisionFunc(x,y):
+    print('x==y is',x==y)
+    print('x>y is',x>y)
+    print('x<y is',x<y)
+    print('x!=y is',x!=y)
+    print('x<=y is',x<=y)
+    print('x>=y is',x>=y)
+comparisionFunc(4,6)
+
+x==y is False
+x>y is False
+x<y is True
+x!=y is True
+x<=y is True
+x>=y is False
+
+Logical operators
+
+#  AND OPERATOR
+
+n1 = int(input("enter first number: "))
+n2 = int(input("enter second number: "))
+n3 = int(input("enter third number: "))
+if  n1==n2==n3:
+    print("enter different values for n1 ,n2 and n3")
+if n1<n2 and n1<n3:
+    print("n1 is smallest")
+elif n2<n1 and n2<n3 :
+    print("n2 is smallest")
+else:
+    print("n3 is smallest")
+enter first number: 5
+enter second number: 6
+enter third number: 2
+
+n3 is smallest
+
+
+# OR OPERATOR
+s= "hello world"
+count=0
+s=s.lower()
+for i in range(len(s)):
+    if s[i]== 'a' or s[i]== 'e' or s[i]=='i' or s[i]=='o' or s[i]=='u':
+        count = count+1
+print(count)
+# here in output it prints total number of vowels in given string     
+
+3
+
+
+Assignment operators
+x=18
+
+x+=5
+print(x)
+x-=5
+print(x)
+x*=5
+print(x)
+x/=5
+print(x)
+x%=5
+print(x)
+x**=5
+print(x)
+x//=5
+print(x)
+
+23
+18
+90
+18.0
+3.0
+243.0
+48.0
+
+
+Membership operators
+x=5
+y=7
+lst = [1,2,3,4,5]
+
+print(x in lst)         #in and not in are membership operators
+print(y in lst)
+print(y not in lst)
+
+True
+False
+True
+
+
+Identity operator
+x=10
+y=10
+print(x is y)
+print(x is not y)
+True
+False
+ 
