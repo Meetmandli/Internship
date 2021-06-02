@@ -39,3 +39,12 @@ I had learned about the object oriented concept using python and perform it
 
 
 
+
+DAY 6
+
+
+I had learned about the installation of Django and i successfully installed it and shared a word file containing proof in code section
+
+
+
+
