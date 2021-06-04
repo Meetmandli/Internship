@@ -57,5 +57,20 @@ I had also learned about the admin in django and concept about superadmin.
 
 
 
+ADVANCED TASK 
+
+I had given advanced tasks on thre basis of classes and inheritance using constructor and methods and here i shared the tasks that i perform and gets the valid output which problem statemnets required.
+
+
+![Screenshot (57)](https://user-images.githubusercontent.com/84834787/120842659-9f145280-c58a-11eb-89cb-7f1c492d99ab.png)
+![Screenshot (58)](https://user-images.githubusercontent.com/84834787/120842663-a2a7d980-c58a-11eb-808f-9da7f76575d0.png)
+![Screenshot (59)](https://user-images.githubusercontent.com/84834787/120842694-aa677e00-c58a-11eb-9ee0-5983bd64bd17.png)
+![Screenshot (60)](https://user-images.githubusercontent.com/84834787/120842699-acc9d800-c58a-11eb-9b16-064650fd331f.png)
+![Screenshot (61)](https://user-images.githubusercontent.com/84834787/120842702-ae939b80-c58a-11eb-81aa-d00d21e8d122.png)
+![Screenshot (62)](https://user-images.githubusercontent.com/84834787/120842712-b05d5f00-c58a-11eb-9cfb-05484185f9d8.png)
+![Screenshot (63)](https://user-images.githubusercontent.com/84834787/120842719-b2272280-c58a-11eb-96df-ca916c76d6d0.png)
+
+
+
 
 
