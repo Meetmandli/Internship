@@ -48,3 +48,14 @@ I had learned about the installation of Django and i successfully installed it a
 
 
 
+
+Day 7 
+
+
+I had learned how to implement Django and made a weppage showing Welcome to django and has about us and contact us page which is shown in word file on my repository.
+I had also learned about the admin in django and concept about superadmin.
+
+
+
+
+
