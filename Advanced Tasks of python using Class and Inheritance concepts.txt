@@ -1,0 +1,228 @@
+1. CREATE A CLASS1 CAL1 THAT WILL CALCULATE SUM OF THREE NUMBERS.CREATE SETDATA() METHOD WHICH HAS THREE PARAMETERS THAT CONTAIN NUMBERS. CREATE DISPLAY() METHOD THAT WILL CALCULATE SUM AND DISPLAY SUM
+class cal1:
+    def setdata(self,a,b,c):
+        print(a)
+        print(b)
+        print(c)
+        self.sum = a+b+c
+    
+    def displaySum(self): 
+        print("sum is = ",self.sum)
+
+        
+c1=cal1()
+c1.setdata(10,20,30)
+c1.displaySum()
+10
+20
+30
+sum is =  60
+
+2. Create a class cal2 that will calculate area of circle . Create setdata() method that should take radius from the user . Create display() method to display area
+class cal2:
+    r = int(input("Enter radius of circle : "))
+    def setdata(self,r):
+        self.area = 3.14*r*r
+    def display(self):
+        print("Area of circle is ",self.area)
+c2= cal2()
+c2.setdata(c2.r)
+c2.display()
+        
+Enter radius of circle : 5
+Area of circle is  78.5
+
+
+3. Create a class cal3 that will calculate simple interest . Create constructor method which has three parameters .Create cal_interest() that will calculate interest. Create display() method that will display interest.
+class cal3:
+    p = int(input("enter principal amount "))
+    t = int(input("enter duration "))
+    r = int(input("enter percentage rate "))
+    def __init__(self,p,r,t):
+        print("principal is ",p,"rs")
+        print("Rate of interest is ",r,"%")
+        print("Time is ",t,"years")
+    
+    def cal_interest(self):
+        self.simple_interest = (self.p * self.r * self.t )/100
+    
+    def display(self):
+        print("simple interest is ",self.simple_interest)
+
+c3 = cal3(c3.p,c3.r,c3.t)
+c3.cal_interest()
+c3.display()
+enter principal amount 1000
+enter duration 3
+enter percentage rate 4
+principal is  1000 rs
+Rate of interest is  5 %
+Time is  3 years
+simple interest is  120.0
+
+
+4. Create a class cal4 that will calculate a square of number . Create setdata() method which has one parameter that contain number . Create display() method that will display square
+class cal4:
+    def setdata(self,a):
+        self.square = a**2
+    
+    def display(self):
+        print("square of the number is ",self.square)
+
+c4 = cal4()
+c4.setdata(5)
+c4.display()
+
+square of the number is  25
+
+
+5. Consider an employee class, which contains fields such as name and designation. And a subclass , which contains a field salary .Write a program for inheriting this relation.
+class employee():
+    def __init__(self,name,designation):
+        self.name = name
+        self.designation = designation
+        
+    def display(self):
+        print("Name of employee is ",self.name)
+        print("Designation of employee is ",self.designation)
+        
+class person(employee):
+    def __init__(self,name,designation,salary):
+        self.salary = salary
+        print("Salary of employee is ",self.salary)
+
+        employee.__init__(self,name,designation)
+        
+c = person('Meet','Data Analyst',50000)
+c.display()
+Salary of employee is  50000
+Name of employee is  Meet
+Designation of employee is  Data Analyst
+
+
+6. Create a class cal5 that will calculate area of rectangle . Create constructor method which has two parameters .Create calArea() method that will calculate area of rectangle . Create a display() method to display the area of rectangle.
+class cal5:
+    def __init__(self,length,breadth):
+        self.length =length
+        self.breadth = breadth
+        
+    def calArea(self):
+        self.area_of_rectangle = self.length * self.breadth
+        
+    def display(self):
+        print("Area of Rectangle is ",self.area_of_rectangle)
+        
+c5 = cal5(length = 10,breadth = 20)
+c5.calArea()
+c5.display()
+Area of Rectangle is  200
+
+
+7. Create a class cal6 that will calculate area of square . Create setdata() method that should take length from the user .Create area() method that will calculate area .Create display() method that will display area.
+class cal6:
+    length = int(input("Enter the length of square: "))
+    def setdata(self,length):
+        self.length = length
+        
+    def area(self,length):
+        self.area = self.length**2
+        
+    def display(self):
+        print("Area of square is ",self.area)
+        
+c6 = cal6()
+c6.setdata(c6.length)
+c6.area(c6.length)
+c6.display()
+        
+Enter the length of square: 10
+Area of square is  100
+
+
+8. Write a program with use of inheritance . Define a class publisher that stores the name of the title .Derive two classes book and tape,which inherit publisher.Book class contain member data called page no and tape class contain time for playing .Define functions in appropriate classes to get and print the details.
+class publisher():
+    def f1(self,title):
+        self.title=title
+        print("Title of the publisher is ",self.title)
+        
+class book(publisher):
+    def f2(self,title,page_no):
+        self.page_no = page_no
+        publisher.f1(self,title)
+        print("Total pages of books are ",self.page_no) 
+
+class tape(publisher):
+    def f3(self,title,time):
+        self.time = time
+        print("Total time for playing is ",self.time)
+        
+
+c = book()
+c1 = tape()
+c.f2('hi',100)
+c1.f3('hi',3)
+Title of the publisher is  hi
+Total pages of books are  100
+Total time for playing is  3
+
+
+9. Create a class called scheme with scheme_id,scheme_name,outgoing_rate,and message_charge.Derive customer class from scheme and include cust_id,name and mobile_no data.Define necessary functions to read and display data
+class scheme:
+    def __init__(self,scheme_id,scheme_name,outgoing_rate,message_charge):
+        self.scheme_id = scheme_id
+        self.scheme_name = scheme_name
+        self.outgoing_rate = outgoing_rate
+        self.message_charge = message_charge 
+        print("scheme id is ",self.scheme_id)
+        print("scheme name is ",self.scheme_name)
+        print("outgoing rate is ",self.outgoing_rate)
+        print("message charged  is ",self.message_charge)
+        
+class customer(scheme):
+    def __init__(self,scheme_id,scheme_name,outgoing_rate,message_charge,cust_id,cust_name,mobile_no):
+        self.cust_id = cust_id
+        self.cust_name = cust_name
+        self.mobile_no = mobile_no
+       
+        
+        scheme.__init__(self,scheme_id,scheme_name,outgoing_rate,message_charge)
+        print("customer id is ",self.cust_id)
+        print("customer name is ",self.cust_name)
+        print("customer mobile number is ",self.mobile_no)
+        
+c = customer(101,'cricketForever',5,8,18,'Meet',1234567893)
+scheme id is  101
+scheme name is  cricketForever
+outgoing rate is  5
+message charged  is  8
+customer id is  18
+customer name is  Meet
+customer mobile number is  1234567893
+
+
+10. Create a airthmetic class . The class should have a parameterized constructor and methods to add , subtract,and multiply two numbers and to return the answers.
+class Airth:
+    def __init__(self,a,b):
+        self.a = a
+        self.b = b
+    def add(self):
+        self.add = self.a + self.b 
+        print("addition of two numbers is ",self.add)
+        
+    def sub(self):
+        self.sub = self.a - self.b
+        print("Subtraction of two number is ",self.sub)
+        
+    def mul(self):
+        self.mul = self.a * self.b
+        print("Multiplication of two numbers is ",self.mul)
+        
+c = Airth(a=10,b=5)
+c.add()
+c.sub()
+c.mul()
+
+addition of two numbers is  15
+Subtraction of two number is  5
+Multiplication of two numbers is  50
+ 
