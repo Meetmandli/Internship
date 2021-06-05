@@ -57,7 +57,7 @@ I had also learned about the admin in django and concept about superadmin.
 
 
 
-ADVANCED TASK 
+DAY 8   ADVANCED TASK 
 
 I had given advanced tasks on thre basis of classes and inheritance using constructor and methods and here i shared the tasks that i perform and gets the valid output which problem statemnets required.
 
@@ -71,6 +71,20 @@ I had given advanced tasks on thre basis of classes and inheritance using constr
 ![Screenshot (63)](https://user-images.githubusercontent.com/84834787/120842719-b2272280-c58a-11eb-96df-ca916c76d6d0.png)
 
 
+
+
+
+DAY 9 
+
+
+
+I had made a website using django using themes STAMPALIKE in which i had shared the short videos of urls.py and views.py of helloapp.
+
+
+
+Then short video showing urls.py and settings.py of myfirstweb project.
+Then short video showing Templates having home.html,contact.html,base.html,about.html.
+Then the final video is of showing output of My website
 
 
 
