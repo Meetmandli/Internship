@@ -99,9 +99,15 @@ https://user-images.githubusercontent.com/84834787/120888185-89e40600-c614-11eb-
 Then short video showing Templates having home.html,contact.html,base.html,about.html.
 
 
+https://user-images.githubusercontent.com/84834787/120888210-b009a600-c614-11eb-90ce-75f7113bad04.mp4
+
+
 
 
 Then the final video is of showing output of My website
+
+
+
 
 
 
