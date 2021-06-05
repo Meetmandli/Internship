@@ -91,9 +91,16 @@ https://user-images.githubusercontent.com/84834787/120888129-586b3a80-c614-11eb-
 Then short video showing urls.py and settings.py of myfirstweb project.
 
 
+https://user-images.githubusercontent.com/84834787/120888185-89e40600-c614-11eb-88d6-d57623f52f6c.mp4
+
+
 
 
 Then short video showing Templates having home.html,contact.html,base.html,about.html.
+
+
+
+
 Then the final video is of showing output of My website
 
 
