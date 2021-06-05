@@ -82,7 +82,17 @@ I had made a website using django using themes STAMPALIKE in which i had shared 
 
 
 
+
+
+https://user-images.githubusercontent.com/84834787/120888129-586b3a80-c614-11eb-9c8d-1667f63c55f4.mp4
+
+
+
 Then short video showing urls.py and settings.py of myfirstweb project.
+
+
+
+
 Then short video showing Templates having home.html,contact.html,base.html,about.html.
 Then the final video is of showing output of My website
 
