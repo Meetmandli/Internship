@@ -115,3 +115,12 @@ https://user-images.githubusercontent.com/84834787/120888307-37efb000-c615-11eb-
 
 
 
+
+Day 10 And 11 
+
+
+
+I had  learned about various method like GET and POST on day 10 and apply in my firstweb project and on day 11 i had learned about admin and made two fields in admin (student and employee).
+I had shared my whole myfirstweb project as a zip file .
+It includes everything from day 1 of django language to last working day in django ...
+
